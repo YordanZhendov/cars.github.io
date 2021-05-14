@@ -67,9 +67,9 @@ table {
 }
 
 #current-day-info {
-  height: 4%;
+  height: 16%;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 4%;
 }
 
 .time {
@@ -202,7 +202,7 @@ table {
   cursor: none;
 }
 
-@media (orientation: landscape) {
+@media (orientation: portrait) {
   .tooltip-container:hover {
     cursor: pointer;
   }
@@ -228,7 +228,6 @@ table {
 
 .popup {
   flex-direction: column;
-  width: 42vw;
   align-items: center;
   background-color: #fff1f1;
   border-radius: 62px;
@@ -339,8 +338,6 @@ table {
   place-content: center;
   text-align: center;
   width: 15%;
-  margin-left: -11px;
-  position: absolute;
 }
 
 #make-note h4 {
@@ -352,7 +349,7 @@ table {
 
 #make-note #edit-post-it {
   height: 150px;
-  width: 85%;
+  width: 60%;
   font-size: 10px;
   padding: 14px;
   border: 1px solid #d8d8d8;
@@ -392,7 +389,7 @@ table {
   background-color: white;
 }
 
-@media (orientation: portrait) {
+@media screen and (max-width: 0px) {
   body {
     flex-direction: column;
   }
@@ -485,7 +482,7 @@ table {
     display: block;
     /* padding: 3vw 25vw; */
     width: 75%;
-    border-radius: 100px;
+    border-radius: 5%;
   }
 
   #calender #app-name-portrait {
@@ -530,11 +527,12 @@ table {
 }
 
 .note-title {
-  width: 85%;
-  font-size: 10px;
+  position: relative;
+  width: 60%;
+  font-size: 15%;
   padding: 14px;
   border: 1px solid #d8d8d8;
-  border-radius: 10px;
+  border-radius: 5%;
   outline: none;
 }
 
